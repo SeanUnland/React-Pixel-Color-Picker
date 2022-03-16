@@ -16,7 +16,7 @@ function App() {
   const classes = useStyles();
 
   // sends the color picker color to the ColorPicker component and the current color to the Grid component
-  const [currentColor, setCurrentColor] = useState("#56BC58");
+  const [currentColor, setCurrentColor] = useState("#7CFFCB");
 
   const [cells, setCells] = useState(initialCells);
 
